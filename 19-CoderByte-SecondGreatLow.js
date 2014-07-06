@@ -10,16 +10,16 @@ function SecondGreatLow(arr) {
 		if (arrSort.length <= 3) {
 			return "Array does not have enough elements";
 		} else if (arrSort.length > 3) {
-			for(i=0; i < arrSort.length; i++){					        //Loop through my sorted array
-                if (arrSort[i] === arrSort[i-1]) {				//Checks the previous element with the current element of the array
-                  arrSort.pop(i);							          	//If they're the same then pop out that element. Removes all duplicates.
+			for(i=0; i < arrSort.length; i++){		//Loop through my sorted array
+                if (arrSort[i] === arrSort[i-1]) {			//Checks the previous element with the current element of the array
+                  arrSort.pop(i);					//If they're the same then pop out that element. Removes all duplicates.
                 }
             }
          }
 
-	var secondLowest = arrSort[1]; 								//selects the second lowest element in the array
-	arrSort.reverse()											        //reverses the array
-	var secondLargest = arrSort[1];								//selects the second highest element in the array
+	var secondLowest = arrSort[1]; 					//selects the second lowest element in the array
+	arrSort.reverse()						//reverses the array
+	var secondLargest = arrSort[1];					//selects the second highest element in the array
 
 	return secondLowest + " " + secondLargest;
 };
