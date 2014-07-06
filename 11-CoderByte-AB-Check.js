@@ -13,6 +13,6 @@ function ABCheck(str) {
         return true;				            			//return true
       }
     }
-    return false;           								//otherwise return false
-  }      
+    return false;           							  	//otherwise return false
+  }
 };
