@@ -12,4 +12,3 @@ function simpleAdding (num) {
 };
 
 //Created a variable sum starting at zero then looped up to num, at each step add i to sum until i = num.
-
