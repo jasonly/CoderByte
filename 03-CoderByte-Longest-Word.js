@@ -18,4 +18,4 @@ function longestWord(sen) {
 //greatestWord is an empty variable where we'll store the longest word
 //Used a for loop to go through my sentence word by word and stored each word in a new variable called word
 //The if statement compares the current word to the greatestWord so far, and if it's greater then it
-//replaces that word.
+//replaces that word. 
