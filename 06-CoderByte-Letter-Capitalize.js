@@ -17,4 +17,4 @@ function letterCapitalize (str) {
 //Take a string then split it into words. Then loop through that array of words and split each word
 //into an array of letters. The first element of that array is then capitalized with toUpperCase
 //Then the word that was split into an array of letters is joined back and we return
-//the joined array of split words 
+//the joined array of split words
