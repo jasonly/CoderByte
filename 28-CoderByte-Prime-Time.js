@@ -15,4 +15,5 @@ function PrimeTime(num) {
   }
   return true;
 }
+
 //Can only be divided by only one or itself and must be a whole number greater than 1
