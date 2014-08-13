@@ -27,3 +27,30 @@ function ArrayAdditionI(arr) {
 };
 
 
+function ArrayAdditionI(arr) { 
+  arr.sort(function(a,b){return a - b})
+  var largest = arr.pop();
+  var sum = 0;
+
+  for (var i = 0; i < arr.length; i++){
+    sum = arr[i] + sum;
+    for (var j = 0; j < arr.length; j++){
+      if (i != j) {
+        sum = arr[j] + sum;
+        if (sum == largest) {
+          return true;
+        }
+      }
+    }
+    for (var k = 0; k < arr.length; k++) {
+      if (i != k) {
+        sum = arr[k] - sum;
+        if (sum == largest) {
+          return true;
+        }
+      }
+    }
+    sum = 0;
+  }  
+  return false; 
+}
