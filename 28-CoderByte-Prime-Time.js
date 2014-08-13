@@ -3,7 +3,6 @@
 //if the parameter is a prime number, otherwise return the string false. The range will be between 1 and 2^16. 
 
 function PrimeTime(num) {
-
   if(num < 2 || num != Math.round(num)){        //Checks if the number is not an integer or less than two then it's not prime
     return false;
   }
