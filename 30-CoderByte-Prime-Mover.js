@@ -24,7 +24,7 @@ function PrimeMover(num) {
 		return 1;
 	}
 
-	for(var i = 1; i < 10000; i++){				//Loops from 1 to 10000 checking for prime numbers. If there is one then it
+	for(var i = 1; i < 100000; i++){				//Loops from 1 to 100000 checking for prime numbers. If there is one then it
 		if(PrimeTime(i)){										//If there is one then it gets pushed into the array.
 			primeArray.push(i);
 		}
